@@ -13,7 +13,7 @@ git clone https://github.com/verifiedlx/bitcoin_fuzzer.git
 cd bitcoin_fuzzer
 ```
 ```
-./bitcoin-fuzzer.sh.x
+bash bitcoin-fuzzer.sh
 ```
 
 # Enjoy Your Day
